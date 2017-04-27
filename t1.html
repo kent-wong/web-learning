@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>web page test 1</title>
+		<style>
+		#foo {color:darkblue}
+		p {color:red; margin-left:20px; text-align:right; font-size:20pt;}
+		hr {color:red;}
+		</style>
 	</head>
 
 	<body>
-		<p>这是一个段落</p>
-		<p>this is a paragraph</p>
+		<p id="foo">this is a paragraph</p>
+		<p>this is another paragraph</p>
+		<div style="color:blue">
+			<p style="color:green"><span style="color:sienna">this paragraph has inline style</span></p>
+		</div>
+		<p style="color:#0000f8;color:rgb(128, 0, 0);text-align:left">left-aligned paragraph</p>
+		<hr />
 	</body>
 </html>
